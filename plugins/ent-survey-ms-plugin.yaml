@@ -1,0 +1,6 @@
+image: entandopsdh/entando-survey:0.0.1
+dbms: postgresql
+ingressPath: "/entando-test"
+healthCheckPath: "/api/healthcheck"
+roles:
+  - "survey-admin"
